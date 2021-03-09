@@ -1,0 +1,45 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Índice de Massa Corporal (IMC) - página inicial</title>
+    <link rel="stylesheet" href="css/imc_index.css">
+    <script src="js/imc.js"></script>
+</head>
+<body>
+    <div id="topo">
+        <h1>Índice de Massa Corporal (IMC)</h1><br/>
+        <h4>Substitua a vírgula (",") pelo ponto (".") para calcular o seu IMC</h4>
+    </div>
+
+    <div id="caixa">
+        <div id="texto">
+            <h3>Digite sua altura e peso e saiba qual o seu IMC:</h3><br/>
+
+            <label>Peso</label><br/>
+                <input type="text" id="peso"/><br/><br/>
+            <label>Altura</label><br/>
+                <input type="text" id="altura"/><br/><br/>
+            <button id="botao" onclick="calcularImc()">Calcular</button><br/><br/>
+                <input type="text" id="imc"/><br/><br/>           
+        </div>
+    </div>
+
+    <a href="https://www.endocrino.org.br/"><img src="img/logo.jpg" width="100" height="70" alt="SBEM"></a>
+
+    <div id="contato">
+        <h2>Clique na imagem, para maiores informações.</h2>
+    </div>
+
+    <div id="resultado">
+        
+    </div>
+
+    <div id="rodape">
+        <h6>Todos os direitos reservados - 2021</h6>
+        <h6>Desenvolvido por Daniel Vitorio - dvitorio2@gmail.com</h6>
+    </div>
+
+</body>
+</html>
