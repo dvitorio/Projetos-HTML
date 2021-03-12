@@ -1,0 +1,111 @@
+*{margin: 0; padding: 0; font-size: 1em}
+
+#topo{max-width: 100%; min-width: 20%}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: rgb(117, 172, 209);
+    text-shadow: 1px 1px 1px black;
+}
+
+#lateral{
+    position: relative;
+    background-color: rgb(221, 238, 241);
+    margin-top: 1%;
+    border: 1px solid lightgrey;
+    border-radius: 2.5%;
+    margin-left: 1%;
+    width: 22%;
+    height: 560px;
+}
+
+#photo{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-top: 5%;
+    margin-left: 33%;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    background-image: url("../img/eu.jpeg   ");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#legenda{margin-top: 40%; margin-left: 41%; font-family: Arial, Helvetica, sans-serif; color: rgb(105, 98, 98)}
+
+#principal{
+    position: relative;
+    float: left;
+    background-color: rgb(221, 238, 241);
+    margin-top: -36.95%;
+    border: 1px solid lightgrey;
+    border-radius: 2%;
+    margin-left: 25%;
+    width: 72%;
+    height: 560px;
+}
+
+legend{text-align: center; font-weight: bolder; color: rgb(117, 172, 209); text-shadow: 1px 1px 1px black}
+
+fieldset{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 92%;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 5px;
+}
+
+#rodape{
+    position: relative;
+    margin-top: 25%;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    line-height: 60%;
+    font-size: 0.7em;
+    color:rgb(86, 90, 94);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#campo1{position: relative; margin-top: 1%; float: left; width: 92%; border: 1px solid grey}
+
+#campo2{margin-top: -1.4%; float: left; width: 92%; border: 1px solid grey}
+
+#campo3{margin-top: -1%; float: left; width: 92%; border: 1px solid grey}
+
+.genero{margin-right: 1%}
+
+#feminino{margin-left: 0.67%}
+
+#mae{margin-left: 3.4%}
+
+#pai_0{margin-left: 6%;}
+
+#nome{margin-left: 2.3%}
+
+#identidade{margin-left: 2%}
+
+#cpf{margin-left: 1%}
+
+#cpf1{margin-left: 1%}
+
+#rua{margin-left: 2%}
+
+.info_lateral{margin-left: 5%; font-family: Arial, Helvetica, sans-serif; color:rgb(86, 90, 94); margin: 2%; padding: 2%}
+
+#botao, #limpar{
+    position: relative;
+    width: 12%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(67, 126, 235);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+#botao:hover{background-color: rgba(160, 9, 9, 0.966)}
+
+#limpar:hover{background-color: rgba(160, 9, 9, 0.966)}

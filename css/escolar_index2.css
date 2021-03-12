@@ -1,0 +1,24 @@
+#uni1{
+    position: relative;
+    float: letf;
+    margin-top: -1%;
+    margin-left: 0;
+    width: 25%;
+    height: 15%;
+}
+
+#uni2{
+    position: absolute;
+    float: letf;
+    margin-top: -13.39%;
+    margin-left: 30%;
+    width: 25%;
+}
+
+#uni3{
+    position: absolute;
+    float: letf;
+    margin-top: -13.39%;
+    margin-left: 62.5%;
+    width: 25%;
+}
