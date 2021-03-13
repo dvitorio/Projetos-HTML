@@ -1,0 +1,55 @@
+h1{ 
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 2em; 
+    color: rgb(94, 190, 219); 
+    text-shadow: 1px 1px 1px black;
+}
+
+#imagem{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url("../img/user.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+#tela{
+    position: relative;
+    margin: 1% auto;
+    width: 35%;
+    height: 28%;
+    border: 1px solid grey;
+    background-color: rgb(188, 223, 223);
+    border-radius: 5px;
+    box-shadow: 5px 5px 1px rgb(146, 142, 142);
+}
+
+.login{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5% 10%;
+}
+
+#email{margin-left: 1.5%}
+
+button{
+    width: 20%;
+    height: 18%;
+    border-radius: 5px;
+    background-color: rgb(45, 134, 134);
+    font-size: 1.2em;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+#btn_logar{margin-left: 27%}
+
+#btn_cancelar{margin-left: 5%}
+
+#btn_logar:hover{background-color: rgb(211, 22, 22)} 
+
+#btn_cancelar:hover{background-color: rgb(211, 22, 22)}
+
